@@ -100,5 +100,7 @@ namespace ProductsAPIxUnitTest
             // Assert
             mockRepository.Verify(x => x.Delete(productId), Times.Once);
         }
+
+        //ref.https://luanmds.medium.com/boas-pr%C3%A1ticas-em-unit-tests-com-net-a-pr%C3%A1tica-ed1eebc0cfb3
     }
 }
